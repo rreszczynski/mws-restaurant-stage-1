@@ -1,0 +1,62 @@
+/* for mobile phones */
+@media screen and (max-width: 400px) {
+	#restaurant-hours td {
+		font-size: 0.85em;
+	}
+	
+}
+
+@media screen and (mix-width: 401px and max-width=799px) {		
+	#breadcrumb li {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	nav {
+		height: auto;
+		padding-top: 0;
+	}
+	
+	nav h1 a {
+		font-size: 1em;
+	}
+	
+	#breadcrumb {
+		width: 100%;
+	}
+	
+	#breadcrumb li {
+		font-size: 1.2em;
+	}
+	
+	#restaurant-container, #reviews-container {
+		border-bottom: 1px solid #d9d9d9;
+		border-top: 1px solid #fff;
+		padding: 100px 10px 30px;
+		width: 100%;
+	}
+	
+	#restaurant-name {
+		margin: 5px 0 10px;	
+	}
+	
+	#reviews-container {
+		padding: 20px 10px 30px;
+	}
+	
+	#reviews-container h2 {
+		margin: 0 0 10px;
+	}
+	
+	.inside #footer {
+		padding: 2px;
+	}
+	
+	.inside #map-container {
+		position: relative;
+		width: 100%;
+		height: 300px;
+		z-index: 1;
+	}
+}
