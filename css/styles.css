@@ -11,6 +11,7 @@ body {
 	background-color: #fdfdfd;
 	margin: 0;
 	position:relative;
+	min-width: 350px;
 }
 ul, li {
 	font-family: Arial, Helvetica, sans-serif;
@@ -78,6 +79,7 @@ nav h1 a {
 /* Display list items side by side */
 #breadcrumb li {
     display: inline;
+		font-size: 1em;
 }
 
 /* Add a slash symbol (/) before/behind each list item */
@@ -122,7 +124,7 @@ nav h1 a {
 .filter-options select {
   background-color: white;
   border: 1px solid #fff;
-  font-family: Arial,sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 11pt;
   height: 35px;
   letter-spacing: 0;
@@ -255,6 +257,7 @@ nav h1 a {
 }
 #reviews-container {
   padding: 30px 40px 80px;
+	box-sizing: border-box
 }
 #reviews-container h2 {
   color: #f58500;
